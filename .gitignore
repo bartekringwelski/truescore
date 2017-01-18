@@ -4,3 +4,4 @@
 .DS_Store
 /server/auth/keys.js
 /client/bundle.js.map
+.vscode
