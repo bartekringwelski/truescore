@@ -16,7 +16,7 @@ if(process.env.CLEARDB_DATABASE_URL){
 } else {
 
 
-   var db = new Sequelize('truescore', 'root', 'test', {
+   var db = new Sequelize('truescore', 'root', 'abc', {
       dialect: 'mysql',
       port: 3306,
       host: 'localhost'
